@@ -1,0 +1,129 @@
+
+  
+*,
+*:before,
+*:after {
+       box-sizing: inherit;
+       /*se debe colocar siempre*/
+}
+
+.no-margin {
+    margin: 0;
+    /* esta clase nos va quitar el margen que el navegador le da por defecto a los elementos */
+}
+
+.no-padding {
+    padding: 0;
+    /* esta clase nos va quitar el padding que el navegador le de por defecto a los elementos */
+}
+
+
+
+.caja{
+    width: 100%;
+    position: inherit;
+    margin: 10px 0px -64px 0px;
+    text-align: right;
+    
+
+}
+
+nav {
+    position:relative;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display:inline;  
+    margin: 0 0 0 10px; 
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    position: sticky;
+    transition: 2s all;
+}
+
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration:overline;
+    transform-origin: right;
+    transform: scale(0.5);
+}
+
+.banner {
+    width: 100%;
+    height: 10%;
+
+}
+
+
+
+.tituloPrincipal {
+
+    padding-left: 30px;
+}
+.contenedor{
+    background: #cccccc;
+   
+    padding: 20px;
+}
+
+.tituloCentro {
+    text-align: center;
+    background-color: #cccccc;
+    
+}
+
+p{
+    text-align: center;
+}
+
+em strong {
+    color: rgba(128, 96, 28, 0.966);
+}
+
+
+
+.mision {
+    font-size: 20px;
+}
+
+.titulodiferenciales{
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.contenedordiferenciales {
+    background: #ffffff;
+    padding: 20px;
+}
+
+
+.items{
+    font-style: italic;
+
+}
+
+ul{
+    display: inline-block;
+    /* list-style-position: inherit; */
+    vertical-align: top;
+    margin-right: 15%;
+    list-style: none;
+}
+
+.bannerDiferenciales {
+    display:inline-block;
+    width: 50%;
+   /* float: right; */
+}
